@@ -1,16 +1,19 @@
 {
-    "painters":  [
-        {
-            "id": 1,
-             "art": "contemporary",
-             "profession": "painter"
-             
-        },
-        {
-            "id" : 2,
-            "art": "oil",
-            "profession": "painter"
-            
-        }
+    "images": [
+      {
+        "id": 1,
+        "genre": "contemporary",
+        "imageUrl": ".vscode/Images/art1.jpg"
+      },
+      {
+        "id": 2,
+        "genre": "oil",
+        "imageUrl": ".vscode/Images/art2.jpg" 
+      },
+      {
+        "id": 1,
+        "genre": "potrait",
+        "imageUrl": ".vscode/Images/art3.jpg"
+      }
     ]
-}
+  }
