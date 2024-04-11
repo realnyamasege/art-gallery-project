@@ -2,29 +2,15 @@
     "painters":  [
         {
             "id": 1,
-             "name": "Elon",
-             "age": "25",
-             "country": "USA",
+             "art": "contemporary",
              "profession": "painter"
              
         },
         {
             "id" : 2,
-            "name": "Kanye",
-            "age": "22",
-            "country": "Ghana",
+            "art": "oil",
             "profession": "painter"
             
-        }
-    ],
-    "courses":[
-        {
-            "name": "Software Enginnering",
-            "students": 100
-        },
-        {
-            "name": "Data Science",
-            "students": 100
         }
     ]
 }
