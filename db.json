@@ -1,19 +1,40 @@
 {
-    "images": [
-      {
-        "id": 1,
-        "genre": "contemporary",
-        "imageUrl": ".vscode/Images/art1.jpg"
-      },
-      {
-        "id": 2,
-        "genre": "oil",
-        "imageUrl": ".vscode/Images/art2.jpg" 
-      },
-      {
-        "id": 1,
-        "genre": "potrait",
-        "imageUrl": ".vscode/Images/art3.jpg"
-      }
-    ]
-  }
+  "images": [
+    {
+      "id": 1,
+      "artist": "leornado",
+      "genre": "portrait",
+      "imageUrl": "./Images/art1.jpg"
+    },
+    {
+      "id": 2,
+      "artist": "tom",
+      "genre": "contemporary",
+      "imageUrl": "./Images/art2.jpg"
+    },
+    {
+      "id": 3,
+      "artist": "davinci",
+      "genre": "fine art",
+      "imageUrl": "./Images/art3.jpg"
+    },
+    {
+      "id": 4,
+      "artist": "van gogh",
+      "genre": "oil",
+      "imageUrl": "./Images/art4.jpg"
+    },
+    {
+      "id": 5,
+      "artist": "picasso",
+      "genre": "texture",
+      "imageUrl": "./Images/art5.jpg"
+    },
+    {
+      "id": 6,
+      "artist": "monet",
+      "genre": "scribble",
+      "imageUrl": "./Images/art6.jpg"
+    }
+  ]
+}
