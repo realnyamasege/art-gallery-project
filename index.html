@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Art Gallery</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -28,113 +28,91 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
 
-    <style>
-        .container {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-        }
-      
-        .box {
-          width: 250px;
-          height: 600px;
-          margin: 10px;
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-        }
-      
-        #box-1 {
-          background-image: url('.vscode/Images/art1.jpg');
-        }
-      
-        #box-2 {
-          background-image: url('.vscode/Images/art2.jpg');
-        }
-      
-        #box-3 {
-          background-image: url('.vscode/Images/art3.jpg');
-        }
-      
-        #box-4 {
-          background-image: url('.vscode/Images/art4.jpg');
-        }
-      
-        #box-5 {
-          background-image: url('.vscode/Images/art5.jpg');
-        }
-      
-        #box-6 {
-          background-image: url('.vscode/Images/art6.jpg');
-        }
-      </style>
-</head>
-<body>
-        <!-- **HOME PAGE TITLE** -->
+    <style></style>
+  </head>
+  <body>
+    <!-- **HOME PAGE TITLE** -->
     <section class="homepage">
-        <h2>EXPLORE</h2>
-        <h3>THE</h3>
-        <h4>COLLECTION</h4>
+      <h2>EXPLORE</h2>
+      <h3>THE</h3>
+      <h4>COLLECTION</h4>
     </section>
 
+    <!-- **NAVIGATION BAR** -->
+    <nav>
+      <a href="#" class="logo">Paintings</a>
+      <div class="link">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+      </div>
+    </nav>
 
-        <!-- **NAVIGATION BAR** -->
-        <nav>
-            <a href="#" class="logo">Paintings</a>
-              <div class="link">
-                <a href="#">Home</a>
-                <a href="#">Contact</a>
-                <a href="#">About</a>
-              </div>
-          </nav>
-
-          <section class="page2">
-              <!--**FLEX-BOX CONTAINER**  -->
+    <section class="page2">
+      <!--**FLEX-BOX CONTAINER**  -->
       <div class="container">
-        <div class="box" id="box-1"><button>Art</button></div>
-        <div class="box" id="box-2"><button>Art</button></div>
-        <div class="box" id="box-3"><button>Art</button></div>
-        <div class="box" id="box-4"><button>Art</button></div>
-        <div class="box" id="box-5"><button>Art</button></div>
-        <div class="box" id="box-6"><button>Art</button></div>
+ 
       </div>
     </section>
+
+    <!-- Form for adding comments -->
+<!--     <section class="">
+      <div>
+        <form id="form-1" class="comment-form">
+          <input type="text" placeholder="Add Comment" />
+          <button type="submit">Post</button>
+        </form>
+      </div>
+    </section> -->
+
+    <section class="art-submit">
+			<form id="submit-form">
+				<h1>Submit your artwork</h1>
+				<input type="text" id="image" placeholder="Enter Image url" />
+				<input type="text" id="genre" placeholder="Enter art genre" />
+				<input
+					type="text"
+					id="artist"
+					placeholder="Enter artist name"
+				/>
+
+				<button>Submit artwork</button>
+			</form>
+		</section>
+
     <section class="page3">
+      <!-- ***********PAGE-3 TITLE************* -->
+      <h1>Don't be shy, shoot a message!</h1>
 
+      <!-- ******************CONTACT DETAILS***************** -->
+      <div class="contact-item">
+        <div class="cimg-3"></div>
+        <p class="chatbox">Get Connected</p>
+        <a href="#" class="chatbox">Tweet Us</a>
+      </div>
+    </section>
 
-            <!-- ***********PAGE-3 TITLE************* -->
-            <h1>
-                Don't be shy, shoot a message!
+    <!-- *******************FOOTER************************ -->
+    <footer>
+      <div class="links">
+        <a target="_blank" href="https://twitter.com/realnyamasege"
+          ><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i
+        ></a>
+        <a target="_blank" href="https://github.com/realnyamasege"
+          ><i class="fa fa-github-square fa-lg" aria-hidden="true"></i
+        ></a>
+      </div>
 
-              </h1>
-      
-          <!-- ******************CONTACT DETAILS***************** -->
-              <div class="contact-item">
-                  <div class="cimg-3"></div>
-                  <p class="chatbox">Get Connected</p>
-                  <a href="#" class="chatbox">Tweet Us</a>
-              </div>
-            </div>     
-          </section>
-      
-          <!-- *******************FOOTER************************ -->
-          <footer>
-            <div class="links">
-                <a target="_blank" href="https://twitter.com/realnyamasege"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-                <a target="_blank" href="https://github.com/realnyamasege"><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></a>
-          </div>
-      
-          <!-- *******************CREDIT************** -->
-            <h2>&#169 Copyright Created by Ezekiel Nyamasege</h2>
-          </footer>
+      <!-- *******CREDIT************** -->
+      <!-- <h2>&#16 Copyright Created by Ezekiel Nyamasege</h2> -->
+    </footer>
 
-
-    <div>
-        <form id=""></form>
-    </div>
     <script src="main.js"></script>
- </body>
- </html>
+  </body>
+</html>
